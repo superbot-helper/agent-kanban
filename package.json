@@ -38,5 +38,10 @@
   },
   "dependencies": {
     "better-sqlite3": "^11.10.0"
+  },
+  "overrides": {
+    "@vitest/coverage-v8": {
+      "vitest": "3.2.6"
+    }
   }
 }
